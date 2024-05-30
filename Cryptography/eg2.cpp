@@ -16,4 +16,6 @@ int main(){
     string ii="123";
     ii+=char(1);
     cout<<ii;
+
+    cout<<endl<<1%5;
 }
