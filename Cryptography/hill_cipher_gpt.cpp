@@ -40,7 +40,9 @@ vector<vector<double>> inverseMatrix(vector<vector<double>> matrix) {
     for (int i = 0; i < n; ++i) {
         for (int j = 0; j < n; ++j) {
             result[i][j] = inverse[i][j + n];
+            cout<<result[i][j]<<"  ";
         }
+        cout<<endl;
     }
 
     return result;

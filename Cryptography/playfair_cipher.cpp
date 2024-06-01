@@ -69,6 +69,7 @@ private:
     {
         int length = plaintext.length();
         string *array = new string[length / 2];
+        
         int count = 0, j = 0;
         for (char ch : plaintext)
         {
